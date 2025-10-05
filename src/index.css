@@ -1,0 +1,46 @@
+/* Tailwind CSS directives */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Toastify__toast-container--top-right {
+  top: 90px; /* Adjust this value based on your navbar's height */
+}
+
+.react-calendar__tile {
+  color: black !important; /* Default text color for all tiles */
+}
+
+.react-calendar__tile--all-present {
+  background-color: #d4edda !important; /* Light Green */
+}
+
+.react-calendar__tile--some-present {
+  background-color: #ffeeba !important; /* Light Orange/Yellow */
+}
+
+.react-calendar__tile--all-absent {
+  background-color: #f8d7da !important; /* Light Red */
+}
+
+/* More specific rule for disabled tiles */
+.react-calendar__tile.react-calendar__tile--disabled {
+  background-color: #e0e0e0 !important; /* Ash color */
+  color: black !important;
+}
+
+.react-calendar__tile--future-in-range {
+  background-color: white !important;
+  color: black !important;
+}
